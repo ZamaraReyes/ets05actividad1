@@ -23,13 +23,13 @@ public class Main {
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
-            System.out.print("Fallo al retirar");
+            System.out.print("Fallo al retirar. Inténtelo de nuevo.");
         }
         try {
-            System.out.println("Ingreso en cuenta");
+            System.out.println("Ingreso en cuenta con éxito.");
             cuenta1.ingresar(695);
         } catch (Exception e) {
-            System.out.print("Fallo al ingresar");
+            System.out.print("Fallo al ingresar. Inténtelo de nuevo.");
         }
     }
 }
